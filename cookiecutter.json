@@ -1,0 +1,7 @@
+{
+    "project_name": "example",
+    "project_package": "{{cookiecutter.project_name|lower|replace('-', '_')}}",
+    "author_name": null,
+    "author_email": null,
+    "github_username": null
+}
