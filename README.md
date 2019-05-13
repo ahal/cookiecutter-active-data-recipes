@@ -59,5 +59,17 @@ files.
 
 Finally, take a look at the example recipe and query. They have lots of comments that explain the
 various aspects of a `recipe`. You can either modify this to suit your needs or create a new recipe
-from scratch. Take a look at the main [active-data-recipe][11] documentation for more information on
+from scratch. Take a look at the main [active-data-recipe][0] documentation for more information on
 writing recipes and queries.
+
+[0]: https://active-data-recipes.readthedocs.io/en/latest/
+[1]: https://pypi.org/project/adr
+[2]: https://github.com/mozilla/active-data-recipes
+[3]: https://cookiecutter.readthedocs.io/en/latest/
+[4]: https://poetry.eustace.io/
+[5]: https://docs.pytest.org/en/latest/index.html
+[6]: http://flake8.pycqa.org/en/latest/
+[7]: http://www.sphinx-doc.org/en/master/
+[8]: https://docs.travis-ci.com/
+[9]: https://tox.readthedocs.io/en/latest/
+[10]: https://readthedocs.org/
