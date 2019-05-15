@@ -3,14 +3,16 @@ import os
 import sys
 from imp import reload
 from io import StringIO
+from pathlib import Path
 
-import adr
 import pytest
 import yaml
 from requests import Response
 from requests.exceptions import HTTPError
 
-here = os.path.abspath(os.path.dirname(__file__))
+import adr
+
+here = Path(__file__).parent.resolve()
 
 
 def load_recipe_tests():
@@ -76,6 +78,28 @@ def pytest_generate_tests(metafunc):
             list(
                 load_formatter_tests('table_')),
             ids=formatter_idfn)
+
+
+@pytest.fixture
+def set_config():
+    config = adr.configuration.Configuration(path=here / 'config.toml')
+
+    def inner(**other):
+        config.merge(other)
+
+        adr_modules = [mod for name, mod in sys.modules.items()
+                       if name.startswith('adr') or name.startswith('app')
+                       if name != 'adr.configuration']
+
+        for source in adr.sources:
+            adr_modules.extend([mod for name, mod in sys.modules.items()
+                                if name.startswith(source.recipe_dir.name)])
+
+        adr.configuration.config = config
+        for mod in adr_modules:
+            reload(mod)
+
+    return inner
 
 
 @pytest.fixture
