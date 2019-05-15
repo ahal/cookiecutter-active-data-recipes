@@ -17,7 +17,7 @@ This cookiecutter will help you create your very own `active-data-recipes` repos
 Run:
 
     $ pip install cookiecutter
-    $ cookiecutter ahal/cookiecutter-active-data-recipes
+    $ cookiecutter https://github.com/ahal/cookiecutter-active-data-recipes
 
 Then answer the prompts to fill out some required metadata. When picking your `project_name` be
 aware that it should be separated by dashes and will have `-recipes` automatically appended to the
