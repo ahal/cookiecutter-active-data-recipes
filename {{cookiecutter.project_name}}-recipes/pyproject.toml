@@ -22,7 +22,7 @@ homepage = "https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.p
 
 [tool.poetry.dependencies]
 python = "^3.6"
-adr = "^0.14.0"
+adr = "^0.15.0"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.7.7"
