@@ -4,9 +4,7 @@ import json
 from io import StringIO as IO
 
 import yaml
-
-from adr import config
-from adr import query
+from adr import config, query
 from adr.query import format_query
 
 
