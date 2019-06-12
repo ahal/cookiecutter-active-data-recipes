@@ -1,8 +1,8 @@
 Available Recipes
 ==================
 
-inspect
--------
+build_times
+-----------
 
-.. automodule:: adr.recipes.inspect
+.. automodule:: adr.{{cookiecutter.project_package}}_recipes.build_times
     :no-undoc-members:

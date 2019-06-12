@@ -6,7 +6,7 @@ from importlib import import_module
 from pathlib import Path
 
 here = Path(__file__).parent.resolve()
-recipe_dir = here / 'recipes'
+recipe_dir = here / '{{cookiecutter.project_package}}_recipes'
 
 
 def verify_docs(identifiers):
@@ -36,7 +36,7 @@ def verify_docs(identifiers):
 def verify_docstrings(modules):
     res = 0
     for name in modules:
-        mod = import_module('recipes.{}'.format(name))
+        mod = import_module('{{cookiecutter.project_package}}_recipes.{}'.format(name))
         if not getattr(mod, '__doc__', None):
             print("ERROR: recipe `{}` missing a module level doc string".format(name))
             res = 1
