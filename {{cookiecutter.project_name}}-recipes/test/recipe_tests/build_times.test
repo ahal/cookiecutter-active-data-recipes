@@ -1,0 +1,630 @@
+recipe: build_times
+args: []
+queries:
+- data:
+  - - build-macosx64-shippable/opt
+    - 749
+    - 69.79232073229706
+  - - build-win32-shippable/opt
+    - 745
+    - 99.00791829041012
+  - - build-win64-shippable/opt
+    - 730
+    - 105.06890310338996
+  - - build-linux-shippable/opt
+    - 729
+    - 110.31654387428648
+  - - build-linux64-shippable/opt
+    - 728
+    - 72.43167938534532
+  - - build-win32/opt
+    - 716
+    - 63.26952616350159
+  - - build-linux64/debug
+    - 713
+    - 25.37817946561222
+  - - build-win64-aarch64-shippable-no-eme/opt
+    - 706
+    - 72.39334081194566
+  - - build-win64-aarch64/opt
+    - 706
+    - 74.84470880952902
+  - - build-win64-aarch64-shippable/opt
+    - 702
+    - 16.349390721410067
+  - - build-linux-gcp-shippable/opt
+    - 701
+    - 90.58658499504247
+  - - build-linux64-gcp-shippable/opt
+    - 701
+    - 81.17440867955206
+  - - build-macosx64-gcp-shippable/opt
+    - 699
+    - 54.588162888903675
+  - - build-win64/debug
+    - 699
+    - 59.62889735454433
+  - - build-macosx64/debug
+    - 696
+    - 27.808884128049616
+  - - build-win64-aarch64-eme/opt
+    - 696
+    - 15.834221802381823
+  - - build-win32/debug
+    - 692
+    - 58.982825474565054
+  - - build-android-api-16/opt
+    - 687
+    - 30.24974162993452
+  - - build-android-api-16/pgo
+    - 685
+    - 44.221412373720995
+  - - build-linux64-asan/opt
+    - 684
+    - 28.820407097274277
+  - - build-linux64/opt
+    - 684
+    - 29.326510588164425
+  - - build-android-x86_64/opt
+    - 683
+    - 42.85889313139979
+  - - build-android-aarch64/debug
+    - 676
+    - 24.08655213296177
+  - - build-linux/debug
+    - 676
+    - 28.821974244715257
+  - - build-android-geckoview-fat-aar/opt
+    - 675
+    - 12.810441222631162
+  - - build-android-x86_64/debug
+    - 675
+    - 26.336454464264566
+  - - build-android-api-16/debug
+    - 674
+    - 24.4193967661395
+  - - build-android-api-16-gcp/debug
+    - 667
+    - 28.542107291701363
+  - - build-android-aarch64-gcp/debug
+    - 666
+    - 27.90854410411996
+  - - build-android-aarch64/pgo
+    - 666
+    - 43.20848884544704
+  - - build-android-x86/opt
+    - 666
+    - 33.78831931816809
+  - - build-android-x86_64-gcp/debug
+    - 665
+    - 29.557391525901895
+  - - build-android-aarch64/opt
+    - 664
+    - 30.20440944780453
+  - - build-macosx64-asan-fuzzing/opt
+    - 664
+    - 27.29013491941603
+  - - build-macosx64-noopt/debug
+    - 664
+    - 17.775827702336002
+  - - build-android-aarch64-gcp/opt
+    - 663
+    - 35.459895910475964
+  - - build-android-x86-fuzzing/debug
+    - 663
+    - 25.024690126270958
+  - - build-win64-asan/opt
+    - 663
+    - 64.43318300544163
+  - - build-android-x86-gcp/opt
+    - 661
+    - 36.18108466874653
+  - - build-linux64-asan/debug
+    - 661
+    - 28.14891628725817
+  - - build-linux64-base-toolchains/debug
+    - 661
+    - 30.690010757578747
+  - - build-macosx64-fuzzing/debug
+    - 661
+    - 28.61178184116375
+  - - build-win32-mingwclang/debug
+    - 661
+    - 24.534881919213017
+  - - build-android-api-16-gcp/opt
+    - 660
+    - 36.215690801192935
+  - - build-linux64-asan-fuzzing/opt
+    - 660
+    - 29.5304404869532
+  - - build-win64-plain/debug
+    - 660
+    - 48.07697383481801
+  - - build-linux64-fuzzing/debug
+    - 659
+    - 30.13839347054803
+  - - build-linux64-plain/debug
+    - 659
+    - 26.117568696010906
+  - - build-win32-mingwclang/opt
+    - 659
+    - 40.10709008110894
+  - - build-android-x86_64-gcp/opt
+    - 658
+    - 43.017501909897504
+  - - build-linux-rusttests/opt
+    - 658
+    - 7.359567706697426
+  - - build-linux64-base-toolchains-clang/opt
+    - 658
+    - 40.265565496219025
+  - - build-linux64-noopt/debug
+    - 658
+    - 24.94105033030718
+  - - build-win32-rusttests/debug
+    - 658
+    - 23.848718822921732
+  - - build-win64-rusttests/debug
+    - 658
+    - 23.627353180686328
+  - - build-win64-rusttests/opt
+    - 658
+    - 26.65817466984556
+  - - build-linux64-rusttests/debug
+    - 657
+    - 6.935658180943834
+  - - build-linux64-aarch64/opt
+    - 656
+    - 22.557501987774195
+  - - build-win32-noopt/debug
+    - 656
+    - 51.10530343058777
+  - - build-win32-rusttests/opt
+    - 655
+    - 26.158975242509594
+  - - build-win64-mingwclang/debug
+    - 655
+    - 24.095814554758046
+  - - build-win64-noopt/debug
+    - 655
+    - 52.8892770545771
+  - - build-linux-rusttests/debug
+    - 654
+    - 7.04333182982227
+  - - build-linux64-base-toolchains-clang/debug
+    - 654
+    - 38.08658133634103
+  - - build-linux64-rusttests/opt
+    - 654
+    - 7.1446356013766605
+  - - build-win64-aarch64/debug
+    - 654
+    - 50.261186354366615
+  - - build-win64-asan/debug
+    - 654
+    - 65.56932189741501
+  - - build-win64-fuzzing/debug
+    - 654
+    - 58.37949920521027
+  - - build-linux64-base-toolchains/opt
+    - 653
+    - 35.61727597443874
+  - - build-win64-asan-fuzzing/opt
+    - 653
+    - 63.5732790190009
+  - - build-linux64-gcp/debug
+    - 652
+    - 29.856163657715907
+  - - build-macosx64-gcp/debug
+    - 650
+    - 29.237175624947998
+  - - build-win64-mingwclang/opt
+    - 649
+    - 38.486919165339316
+  - - build-linux-gcp/debug
+    - 646
+    - 32.83739418924894
+  - - build-macosx64/opt
+    - 55
+    - 57.437380247277986
+  - - build-win64/opt
+    - 52
+    - 71.6025408498602
+  - - build-linux/opt
+    - 49
+    - 40.200961224724644
+  - - build-win64-ccov/debug
+    - 35
+    - 102.52103000039146
+  - - build-android-api-lint/opt
+    - 32
+    - 6.5668885412315525
+  - - build-linux64-ccov/debug
+    - 32
+    - 58.7764723961552
+  - - build-android-api-16-without-google-play-services/opt
+    - 31
+    - 39.68738924764818
+  - - build-linux64-ccov/opt
+    - 31
+    - 58.26585268782031
+  - - build-linux64-fuzzing-ccov/opt
+    - 31
+    - 59.26718387129486
+  - - build-linux64-gcp/opt
+    - 31
+    - 43.26686666665539
+  - - build-linux-gcp/opt
+    - 30
+    - 43.41820833378368
+  - - build-linux64-plain/opt
+    - 30
+    - 31.31589055577914
+  - - build-macosx64-gcp/opt
+    - 30
+    - 56.522637356286765
+  - - build-win64-plain/opt
+    - 30
+    - 52.999176667133966
+  - - build-android-findbugs/opt
+    - 29
+    - 7.031601149460365
+  - - build-android-checkstyle/opt
+    - 28
+    - 6.278339285793758
+  - - build-android-lint/opt
+    - 28
+    - 7.199708928238778
+  - - build-linux64-asan-fuzzing-ccov/opt
+    - 28
+    - 47.947060118686586
+  - - build-macosx64-ccov/debug
+    - 28
+    - 59.87275476228623
+  - - build-win64-asan-reporter-nightly/opt
+    - 16
+    - 71.2510322223769
+  - - build-android-test/opt
+    - 15
+    - 10.796397777663337
+  - - build-linux64-asan-reporter-nightly/opt
+    - 15
+    - 40.29287500040872
+  - - build-android-geckoview-docs/opt
+    - 9
+    - 6.2836370366590995
+  - - build-android-api-16-nightly/opt
+    - 8
+    - 57.256672917306425
+  - - build-android-geckoview-fat-aar-nightly/opt
+    - 7
+    - 51.475640476885296
+  - - build-android-x86-nightly/opt
+    - 7
+    - 55.777314285437264
+  - - build-android-aarch64-nightly/opt
+    - 6
+    - 56.54211111134953
+  - - build-android-x86_64-nightly/opt
+    - 6
+    - 68.25337222152287
+  - - build-macosx64-devedition-nightly/opt
+    - 1
+    - 72.53324999809266
+  header:
+  - run.name
+  - tasks
+  - average minutes
+expected:
+- - Build
+  - Average (min)
+  - Total (min)
+- - build-linux-shippable/opt
+  - 110
+  - 80421
+- - build-win64-shippable/opt
+  - 105
+  - 76700
+- - build-win64-ccov/debug
+  - 103
+  - 3588
+- - build-win32-shippable/opt
+  - 99
+  - 73761
+- - build-linux-gcp-shippable/opt
+  - 91
+  - 63501
+- - build-linux64-gcp-shippable/opt
+  - 81
+  - 56903
+- - build-win64-aarch64/opt
+  - 75
+  - 52840
+- - build-macosx64-devedition-nightly/opt
+  - 73
+  - 73
+- - build-linux64-shippable/opt
+  - 72
+  - 52730
+- - build-win64-aarch64-shippable-no-eme/opt
+  - 72
+  - 51110
+- - build-win64/opt
+  - 72
+  - 3723
+- - build-win64-asan-reporter-nightly/opt
+  - 71
+  - 1140
+- - build-macosx64-shippable/opt
+  - 70
+  - 52274
+- - build-android-x86_64-nightly/opt
+  - 68
+  - 410
+- - build-win64-asan/debug
+  - 66
+  - 42882
+- - build-win64-asan/opt
+  - 64
+  - 42719
+- - build-win64-asan-fuzzing/opt
+  - 64
+  - 41513
+- - build-win32/opt
+  - 63
+  - 45301
+- - build-win64/debug
+  - 60
+  - 41681
+- - build-macosx64-ccov/debug
+  - 60
+  - 1676
+- - build-win32/debug
+  - 59
+  - 40816
+- - build-linux64-ccov/debug
+  - 59
+  - 1881
+- - build-linux64-fuzzing-ccov/opt
+  - 59
+  - 1837
+- - build-win64-fuzzing/debug
+  - 58
+  - 38180
+- - build-linux64-ccov/opt
+  - 58
+  - 1806
+- - build-macosx64/opt
+  - 57
+  - 3159
+- - build-macosx64-gcp/opt
+  - 57
+  - 1696
+- - build-android-api-16-nightly/opt
+  - 57
+  - 458
+- - build-android-aarch64-nightly/opt
+  - 57
+  - 339
+- - build-android-x86-nightly/opt
+  - 56
+  - 390
+- - build-macosx64-gcp-shippable/opt
+  - 55
+  - 38157
+- - build-win64-noopt/debug
+  - 53
+  - 34642
+- - build-win64-plain/opt
+  - 53
+  - 1590
+- - build-win32-noopt/debug
+  - 51
+  - 33525
+- - build-android-geckoview-fat-aar-nightly/opt
+  - 51
+  - 360
+- - build-win64-aarch64/debug
+  - 50
+  - 32871
+- - build-win64-plain/debug
+  - 48
+  - 31731
+- - build-linux64-asan-fuzzing-ccov/opt
+  - 48
+  - 1343
+- - build-android-api-16/pgo
+  - 44
+  - 30292
+- - build-android-x86_64/opt
+  - 43
+  - 29273
+- - build-android-aarch64/pgo
+  - 43
+  - 28777
+- - build-android-x86_64-gcp/opt
+  - 43
+  - 28306
+- - build-linux64-gcp/opt
+  - 43
+  - 1341
+- - build-linux-gcp/opt
+  - 43
+  - 1303
+- - build-win32-mingwclang/opt
+  - 40
+  - 26431
+- - build-linux64-base-toolchains-clang/opt
+  - 40
+  - 26495
+- - build-linux/opt
+  - 40
+  - 1970
+- - build-android-api-16-without-google-play-services/opt
+  - 40
+  - 1230
+- - build-linux64-asan-reporter-nightly/opt
+  - 40
+  - 604
+- - build-linux64-base-toolchains-clang/debug
+  - 38
+  - 24909
+- - build-win64-mingwclang/opt
+  - 38
+  - 24978
+- - build-android-x86-gcp/opt
+  - 36
+  - 23916
+- - build-android-api-16-gcp/opt
+  - 36
+  - 23902
+- - build-linux64-base-toolchains/opt
+  - 36
+  - 23258
+- - build-android-aarch64-gcp/opt
+  - 35
+  - 23510
+- - build-android-x86/opt
+  - 34
+  - 22503
+- - build-linux-gcp/debug
+  - 33
+  - 21213
+- - build-linux64-base-toolchains/debug
+  - 31
+  - 20286
+- - build-linux64-plain/opt
+  - 31
+  - 939
+- - build-android-api-16/opt
+  - 30
+  - 20782
+- - build-android-x86_64-gcp/debug
+  - 30
+  - 19656
+- - build-android-aarch64/opt
+  - 30
+  - 20056
+- - build-linux64-asan-fuzzing/opt
+  - 30
+  - 19490
+- - build-linux64-fuzzing/debug
+  - 30
+  - 19861
+- - build-linux64-gcp/debug
+  - 30
+  - 19466
+- - build-linux64-asan/opt
+  - 29
+  - 19713
+- - build-linux64/opt
+  - 29
+  - 20059
+- - build-linux/debug
+  - 29
+  - 19484
+- - build-android-api-16-gcp/debug
+  - 29
+  - 19038
+- - build-macosx64-fuzzing/debug
+  - 29
+  - 18912
+- - build-macosx64-gcp/debug
+  - 29
+  - 19004
+- - build-macosx64/debug
+  - 28
+  - 19355
+- - build-android-aarch64-gcp/debug
+  - 28
+  - 18587
+- - build-linux64-asan/debug
+  - 28
+  - 18606
+- - build-macosx64-asan-fuzzing/opt
+  - 27
+  - 18121
+- - build-win64-rusttests/opt
+  - 27
+  - 17541
+- - build-android-x86_64/debug
+  - 26
+  - 17777
+- - build-linux64-plain/debug
+  - 26
+  - 17211
+- - build-win32-rusttests/opt
+  - 26
+  - 17134
+- - build-linux64/debug
+  - 25
+  - 18095
+- - build-android-x86-fuzzing/debug
+  - 25
+  - 16591
+- - build-win32-mingwclang/debug
+  - 25
+  - 16218
+- - build-linux64-noopt/debug
+  - 25
+  - 16411
+- - build-android-aarch64/debug
+  - 24
+  - 16283
+- - build-android-api-16/debug
+  - 24
+  - 16459
+- - build-win32-rusttests/debug
+  - 24
+  - 15692
+- - build-win64-rusttests/debug
+  - 24
+  - 15547
+- - build-win64-mingwclang/debug
+  - 24
+  - 15783
+- - build-linux64-aarch64/opt
+  - 23
+  - 14798
+- - build-macosx64-noopt/debug
+  - 18
+  - 11803
+- - build-win64-aarch64-shippable/opt
+  - 16
+  - 11477
+- - build-win64-aarch64-eme/opt
+  - 16
+  - 11021
+- - build-android-geckoview-fat-aar/opt
+  - 13
+  - 8647
+- - build-android-test/opt
+  - 11
+  - 162
+- - build-linux-rusttests/opt
+  - 7
+  - 4843
+- - build-linux64-rusttests/debug
+  - 7
+  - 4557
+- - build-linux-rusttests/debug
+  - 7
+  - 4606
+- - build-linux64-rusttests/opt
+  - 7
+  - 4673
+- - build-android-api-lint/opt
+  - 7
+  - 210
+- - build-android-findbugs/opt
+  - 7
+  - 204
+- - build-android-lint/opt
+  - 7
+  - 202
+- - build-android-checkstyle/opt
+  - 6
+  - 176
+- - build-android-geckoview-docs/opt
+  - 6
+  - 57
