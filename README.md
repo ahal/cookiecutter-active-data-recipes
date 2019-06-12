@@ -46,7 +46,9 @@ you. The first thing to do is make sure you can run them:
 
     $ poetry install
     $ poetry shell
-    $ adr example
+    $ adr list
+    # should see 'build_times' and 'inspect'
+    $ adr build_times
     # should see recipe output
 
 You can run the tests + linters with:
@@ -57,10 +59,10 @@ If you want CI and documentation, you'll need to hook up the repository to [Trav
 [readthedocs][10] respectively. If you don't need these, feel free to delete the relevant config
 files.
 
-Finally, take a look at the example recipe and query. They have lots of comments that explain the
-various aspects of a `recipe`. You can either modify this to suit your needs or create a new recipe
-from scratch. Take a look at the main [active-data-recipe][0] documentation for more information on
-writing recipes and queries.
+Finally, take a look at the `build_times` example recipe and query. They have lots of comments that
+explain the various aspects of a `recipe`. You can either modify this to suit your needs or create a
+new recipe from scratch. Take a look at the main [active-data-recipe][0] documentation for more
+information on writing recipes and queries.
 
 [0]: https://active-data-recipes.readthedocs.io/en/latest/
 [1]: https://pypi.org/project/adr
