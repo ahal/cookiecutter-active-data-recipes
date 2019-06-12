@@ -1,0 +1,22 @@
+branches:
+  flags: ["-b", "--branch"]
+  action: append
+  help: "Branch(es) to collect data from. Can be passed multiple times."
+
+kind:
+  flags: ["--kind"]
+  choices: ["build", "test"]
+  default: "test"
+  help: "The kind of task to inspect."
+
+from_date:
+  flags: ['--from']
+  default: 'today-week'
+  type: validdatetime
+  help: "Starting date to pull data from, defaults to a week ago"
+
+to_date:
+  flags: ['--to']
+  default: 'eod'  # end of day
+  type: validdatetime
+  help: "Ending date to pull data from, defaults to end of day"
