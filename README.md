@@ -35,7 +35,7 @@ will be created. See the [cookiecutter][3] documentation for more information.
 
 This project template includes:
 
-1. [Poetry][4] to manage packaging and depdendies.
+1. [Poetry][4] to manage packaging and dependencies.
 2. [Pytest][5] to run tests.
 3. [Flake8][6] for linting (with `flake8-import-order` installed).
 4. [Sphinx][7] for building documentation.
