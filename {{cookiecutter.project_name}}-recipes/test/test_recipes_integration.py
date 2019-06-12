@@ -7,7 +7,7 @@ from pytest import mark, xfail
 
 
 TEST_CASES = [
-    "inspect",
+    "build_times",
 ]
 
 
