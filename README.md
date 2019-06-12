@@ -19,6 +19,11 @@ Run:
     $ pip install cookiecutter
     $ cookiecutter https://github.com/ahal/cookiecutter-active-data-recipes
 
+If you don't have git installed (e.g you're running from the `mozilla-build` shell in Windows), you can do this:
+
+    $ wget https://github.com/ahal/cookiecutter-active-data-recipes/archive/master.zip --no-check-certificate; unzip master.zip; rm master.zip
+    $ cookiecutter cookiecutter-active-data-recipes-master
+
 Then answer the prompts to fill out some required metadata. When picking your `project_name` be
 aware that it should be separated by dashes and will have `-recipes` automatically appended to the
 end of it.
