@@ -48,6 +48,7 @@ you. The first thing to do is make sure you can run them:
     $ poetry shell
     $ adr list
     # should see 'build_times' and 'inspect'
+    
     $ adr build_times
     # should see recipe output
 
